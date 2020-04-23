@@ -25,14 +25,43 @@
             flex-direction: column;
             justify-content: center;
         }
+
+        .blocks {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 1000px;
+        }
+
+        .block {
+            background-color: cadetblue;
+            height: 200px;
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .block1 {
+            flex-basis: 400px;
+        }
+
+        .block2 {
+            flex-basis: 100px;
+        }
+
+        .block3 {
+            flex-basis: 200px;
+        }
+
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="img_blocks">
-            <img src="https://source.unsplash.com/random/150x150" alt="">
-            <img src="https://source.unsplash.com/random/150x150" alt="">
-            <img src="https://source.unsplash.com/random/150x150" alt="">
+        <div class="blocks">
+            <div class="block block1">1</div>
+            <div class="block block2">2</div>
+            <div class="block block3">3</div>
         </div>
     </div>
 </body>
