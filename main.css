@@ -1,0 +1,111 @@
+html {
+    font-family: 'Happy Monkey', cursive;
+    box-sizing: border-box;
+    font-size: 80%;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    display: grid;
+    grid-template-rows: inherit;
+    height: 50px;
+}
+
+.i {
+    position: absolute;
+    width: 300px;
+    margin: 0;
+    padding: 50px;  
+    background: #ededed;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    top: 50px;
+    right: 0;
+}
+
+.container {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 2px;
+    width: 100%;
+    height: 42px;
+    background-color: slategrey;
+}
+
+.container .nav-bar {
+    display: flex;
+    justify-content: flex-start;
+    height: 42px;
+
+}
+
+.container .nav-bar .main {
+    flex-basis: 500px;
+    align-content: center;
+    text-align: center;
+    text-shadow: 2px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.container .nav-bar .main > a {
+    color: white;
+    width: max-content;
+    display: flex;
+    margin-left: 6px;
+    margin-right: 6px;
+    align-content: center;
+    text-align: center;
+    text-shadow: 2px;
+}
+
+.container .nav-bar .main > a:hover {
+    color: black;
+    background-color: white;
+}
+
+.container .nav-bar .hamburger {
+    display: flex;
+    align-items: flex-start;
+    flex-basis: 600px;
+    flex-shrink: 1;
+    height: 42px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container .nav-bar .hamburger .button {
+    display: flex;
+    flex-shrink: 1;
+    margin-left: 6px;
+    margin-right: 6px;
+    height: 42px;
+    background-color: #abc123;
+    text-size-adjust: inherit;
+}
+
+.container .nav-bar .hamburger .button a {
+    width: max-content;
+    display: flex;
+    margin-left: 6px;
+    margin-right: 6px;
+    align-content: center;
+    text-align: center;
+    text-shadow: 2px;
+    color: white;
+}
+
+.container .nav-bar .hamburger .button a:hover {
+    color: black;
+    background-color: white;
+    margin-left: 6px;
+    margin-right: 6px;
+}
