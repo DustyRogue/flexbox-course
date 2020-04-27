@@ -1,0 +1,20 @@
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: 'Happy Monkey', cursive;
+}
+
+.error_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+.error_wrapper > .error_heading {
+    margin-bottom: 42px;
+}
+img {
+    width: 75%;
+}

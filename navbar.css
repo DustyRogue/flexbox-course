@@ -1,0 +1,81 @@
+html {
+    font-family: 'Happy Monkey', cursive;
+    font-size: smaller;
+}
+
+body {
+    margin: 0px;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    align: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.navbar {
+    background: #415068;
+}
+
+.navbar div {
+    display: none;
+}
+
+.navbar .toggle,
+.navbar .brand {
+    display: inline-block;
+    font-family: 'Bangers', cursive;
+    font-size: x-large;
+}
+
+.navbar .brand:hover,
+.navbar .brand:active {
+    color: #223047;
+    background: white;
+}
+
+.navbar .brand .fas {
+    object-position: left;
+    color: green;
+    font-size: 1.1em;
+}
+
+.navbar .right,
+.navbar .left {
+    font-family: 'Bangers', cursive;
+    font-size: x-large;
+}
+.navbar .link {
+    display: block;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+    background: #223047;
+    color: white;
+}
+
+.navbar .link:hover,
+.navbar .link:active {
+    color: #223047;
+    background: white;
+}
+
+.navbar .brand {
+    width: 10em;
+    text-align: center;
+    padding: 1em;
+    color: white;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar .toggle {
+    padding: 1em;
+    color: black;
+}

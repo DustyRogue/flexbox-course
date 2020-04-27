@@ -1,0 +1,36 @@
+html {
+    $aquaponics-blue: #007AFF;
+    $aquaponics-hover-blue: #0069DE;
+    $aquaponics-white: #white;
+    $aquaponics-black: #black;
+    $aquaponics-green: #green;
+    $medium-charcoal: #4A4A4A;
+    $light-charcoal: #6B6B6B;
+    $off-white: #F3F3F3;
+    $very-light-grey: #F7F7F7;
+    $near-black: #1A1A1A;
+    $light-grey: #C0C2C3;
+    $grey-white: #C0C2C3;
+    $dropdown-grey: #ADB6BE;
+    $aquaponics-orange: #FF4405;
+
+    $heading-font-family: 'Happy Monkey';
+    $topic-fot-family: 'LatoBold';
+    $submission-font-family: 'LatoLight';
+    $light-font: 'LatoLight';
+    $medium-font: 'LatoRegular';
+
+    $phone-query: "only screen and (max-width : 400px)";
+}
+
+/* 
+
+Style guide
+    fonts
+    colors
+    etc.
+Full prototype
+Logo
+
+*/
+
